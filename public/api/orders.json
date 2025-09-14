@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1694123456789",
+    "customerName": "Ana García",
+    "phone": "378-123-4567",
+    "address": "Edificio A, Aula 101, CUAltos",
+    "notes": "Entregar en el aula 101",
+    "items": [
+      {
+        "id": "1",
+        "name": "Pizza Margherita",
+        "image": "🍕",
+        "price": 120,
+        "quantity": 1,
+        "selectedSize": "Mediana (25cm)",
+        "selectedCrust": "Masa Tradicional",
+        "selectedToppings": ["Champiñones", "Queso Extra"],
+        "customPrice": 210
+      },
+      {
+        "id": "9",
+        "name": "Coca Cola",
+        "image": "🥤",
+        "price": 25,
+        "quantity": 2
+      }
+    ],
+    "total": 260,
+    "status": "preparing",
+    "timestamp": "2024-09-13T14:30:00.000Z",
+    "priority": "normal"
+  },
+  {
+    "id": "1694123456790",
+    "customerName": "Carlos López",
+    "phone": "378-987-6543",
+    "address": "Biblioteca Central, CUAltos",
+    "notes": "",
+    "items": [
+      {
+        "id": "6",
+        "name": "Pizza Prosciutto",
+        "image": "🥓",
+        "price": 220,
+        "quantity": 1,
+        "selectedSize": "Familiar (30cm)",
+        "selectedCrust": "Masa Delgada",
+        "selectedToppings": [],
+        "customPrice": 440
+      }
+    ],
+    "total": 440,
+    "status": "baking",
+    "timestamp": "2024-09-13T14:15:00.000Z",
+    "priority": "high"
+  },
+  {
+    "id": "1694123456791",
+    "customerName": "María Rodríguez",
+    "phone": "378-555-0123",
+    "address": "Cafetería Central, CUAltos",
+    "notes": "Mesa junto a la ventana",
+    "items": [
+      {
+        "id": "2",
+        "name": "Pizza Pepperoni",
+        "image": "🍕",
+        "price": 140,
+        "quantity": 1,
+        "selectedSize": "Personal (20cm)",
+        "selectedCrust": "Masa Tradicional",
+        "selectedToppings": ["Pepperoni Extra"],
+        "customPrice": 155
+      },
+      {
+        "id": "11",
+        "name": "Jugo de Naranja",
+        "image": "🍊",
+        "price": 30,
+        "quantity": 1
+      }
+    ],
+    "total": 185,
+    "status": "ready",
+    "timestamp": "2024-09-13T14:00:00.000Z",
+    "priority": "normal"
+  }
+]
