@@ -281,13 +281,6 @@ rm -rf node_modules package-lock.json
 pnpm install
 ```
 
-### Error: "66 archivos nuevos después de npm install"
-```bash
-# Esto es normal - node_modules/ está en .gitignore
-# Solo se subirán los archivos de código fuente
-git status  # Verificar que node_modules/ no aparece
-```
-
 ## 📊 Métricas del Proyecto
 
 - **Bundle Size**: 438.33 kB (comprimido: 136.13 kB)
